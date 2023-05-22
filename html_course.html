@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+    <head>
+        <title>HTML Course</title>
+        <!-- bootstrap link to use icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: arial;
+            }
+            
+            .window{
+                max-width: 100%;
+                height: 100%;
+            }
+            /*Background Horizontal image*/
+            .back img{
+                opacity: 0.3;
+                height: 250px;
+                width:100%;
+            }
+
+            .back{
+                background-color: black;
+            }
+            /* Logo Image */
+            .logo img{
+                border-radius: 50%;
+                border: 3px solid #fff;
+                position: relative;
+                top: -90px;
+                margin-left: 50px;
+                height: 250px;
+                width: 250px;
+            }
+            
+            /* Right hand side box  */
+            .box{
+                position: absolute;
+                top: 150px;
+                right: 100px;
+                width: 25%;
+                height: 60%;
+                background-color: white ;
+                
+                box-shadow: 0 0 10px 5px rgba(0,0,0, .7);
+            }
+
+            .box h2{
+                text-align: center;
+                background-color: white ;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                font-size: 40px;
+
+            }
+
+            .box p{
+                padding: 30px;
+                font-size:25px;
+                text-align: Center;
+            }
+            
+            /* horizontal line inside right box and module */
+            .round{
+                margin-left: 25px;
+                margin-right: 25px;
+                border-radius: 5px;
+                height: 2px;
+                border-color: #91B1CC ;
+                border-top-color: #91B1CC ;
+                color: #91B1CC;
+                
+            }
+            
+            /* For text box under logo */
+            .logo .text h1{
+                margin-left: 50px;
+                font-size: 50px; 
+                margin-top: -60px;
+                margin-bottom: 30px;
+            }
+
+            .logo .text p{
+                margin-left: 70px;
+                font-size: 25px;
+                width: 60%;
+                height: 28%;
+                background-color: white ;
+                box-shadow: 0 0 10px 5px rgba(0,0,0, .7);
+                padding: 30px;
+                
+            }
+            
+            /* subscribing button */
+            .sub-button{
+                padding: 20px;
+                text-align: center;
+                
+               
+            }
+            
+            /* button inside module contain i.e Get started button */
+            Button{
+                font-size: 30px;
+                padding: 5px;
+                background-color: lightblue;
+
+            }
+             
+            /* module box */
+            .module{
+                width: 70%;
+                height: 155%;
+                background-color: white ;
+                box-shadow: 0 0 10px 5px rgba(0,0,0, .7);
+                padding: 20px;
+                margin-left: 240px;
+                margin-top: 30px;
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .module .contain{
+                text-align: left;
+                width: 90%;
+                height: 80%;
+                border: solid black;
+                padding: 20px;
+                margin-top: 30px;
+                margin-left: 30px;
+                margin-bottom: 40px;
+            }
+
+            .module .contain p{
+                margin-left: 20px;
+            }
+
+            
+
+            .module .contain button{
+                font-size: 30px;
+                padding: 5px;
+                background-color: lightblue;
+
+            }
+
+            
+
+           
+
+           
+            
+
+            
+        </style>
+    </head>
+
+    <body>
+        <!-- Whole window -->
+        <div class="window">
+            <!-- Upper background image part -->
+            <div class="back">
+                <img src="images/code.jpg" alt="image">
+                
+            </div>
+            <!-- Logo -->
+            <div class="logo">
+                <img src="images/html.png" alt="image">
+                 <!-- Text area under logo -->
+                <div class="text">
+                    <h1>Learn HTML Programming</h1>
+                    <p>Start your journey with learning basic of HTML Programming<br><br>
+                    This Course Included : <br><br>
+                     <i class="bi bi-file-earmark-text-fill"></i>  10 Modules<br>
+                     <i class="bi bi-play-btn"></i>  Module related videos<br>
+                     <i class="bi bi-code-slash"></i>  Excercise<br>
+                    
+                    </p>   
+                </div>
+            </div>
+
+            <!-- Right hand side subscribtion box -->
+            <div class="box">
+                <h2>HTML Programming</h2>
+                <hr class="round">
+                <p>Take one step towards your journey of coding by subscribing this course</p> 
+                <div class="sub-button">
+                <Button>Subscribe</Button>
+                </div>
+            </div>
+              
+            <!-- Module box -->
+            <div class="module">
+                <h1>Modules</h1>
+                <!-- Inside module box -->
+                <div class="contain">
+                    <p>
+                        <br>
+                        <i class="bi bi-chevron-right"></i>   Introduction to HTML Programming
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   Elements
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   Attributes
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   Headings
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Tags
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Styles
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   Comments
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Links and Images
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Tables
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Lists
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Classes and ID
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML Forms
+                        <br><br>
+                        <i class="bi bi-chevron-right"></i>   HTML-CSS
+                        <br><br>
+                        <hr class="round">
+                        <br>
+                        <i class="bi bi-braces"></i>  Excersice
+                        <br>
+                    </p>
+                </div>
+                <button>Get Started</button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
